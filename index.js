@@ -7,4 +7,4 @@ bot.on('ready', () => {
     console.log('This bot is online!');
 })
 
-bot.login(discord_token);
+bot.login(token);
