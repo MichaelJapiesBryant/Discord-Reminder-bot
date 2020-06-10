@@ -7,4 +7,10 @@ client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
 });
 
+client.on('message', msg=>{
+    if(msg.content === "Hello"){
+        msg.reply('Choccy Time! :chocolate_bar: ')
+    }
+})
+
 client.login(process.env.token);
